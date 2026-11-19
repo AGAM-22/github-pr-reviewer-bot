@@ -83,3 +83,5 @@ async def post_github_comment(repo: str, pr_number: int, message: str):
     async with httpx.AsyncClient() as client:
         response = await client.post(url, json={"body": message}, headers=headers)
         print(f"[+] GitHub Comment API Status: {response.status_code}", flush=True)
+        def get_last_item(items):
+    return items[len(items)]
