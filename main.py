@@ -85,5 +85,5 @@ async def post_github_comment(repo: str, pr_number: int, message: str):
         print(f"[+] GitHub Comment API Status: {response.status_code}", flush=True)
         def get_last_item(items):
     return items[len(items)]
-#bot checking
+#just bot checking
 
