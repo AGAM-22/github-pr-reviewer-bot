@@ -97,7 +97,7 @@ async def review_code_with_ai(title: str, diff: str, max_attempts: int = 5) -> s
     
     Git Diff:
     ```diff
-    {diff[:6000]}
+    {diff[:2500]}
     ```
     """
 
